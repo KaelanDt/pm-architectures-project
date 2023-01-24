@@ -9,7 +9,6 @@
 % Link: https://github.com/danielrherber/pm-architectures-project
 %--------------------------------------------------------------------------
 clear; clc; close all;  
-
 % problem specifications
 P = [1 2 3 4]; % ports vector
 R.min = [3 2 1]; R.max = [3 2 1]; % replicates vector
