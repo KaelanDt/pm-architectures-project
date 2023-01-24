@@ -8,7 +8,7 @@
 % Additional contributor: Shangtingli on GitHub
 % Link: https://github.com/danielrherber/pm-architectures-project
 %--------------------------------------------------------------------------
-clear; clc; close all; closeallbio;
+clear; clc; close all;  
 
 % problem specifications
 P = [1 2 3]; % ports vector
