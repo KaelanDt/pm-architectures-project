@@ -8,11 +8,12 @@
 % Additional contributor: Shangtingli on GitHub
 % Link: https://github.com/danielrherber/pm-architectures-project
 %--------------------------------------------------------------------------
-clear; clc; close all;  
+clear; clc; close all; 
+
 % problem specifications
-P = [1 2 3 4]; % ports vector
+P = [1 2 3]; % ports vector
 R.min = [3 2 1]; R.max = [3 2 1]; % replicates vector
-C = {'R','L','C'}; % label vector
+C = {'R','G','B'}; % label vector
 
 % test number
 num = 4;

@@ -359,7 +359,7 @@ function RunFiles(files)
 % go through each file and run
 for k = 1:length(files)
     disp(['--- Running ', files(k).file])
-
+    print(files(k))
     try
         % run the file
         run(files(k).file);
