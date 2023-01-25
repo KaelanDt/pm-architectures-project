@@ -2,6 +2,7 @@
 % Normal Computing
 % RLC circuit netlists generation code
 %--------------------------------------------------------------------------
+
 clear; clc; close all; 
 
 % problem specifications
@@ -46,8 +47,9 @@ opts.parallel = false; % no parallel computing
 % generate graphs
 final_graphs = PMA_UniqueFeasibleGraphs(C,R,P,NSC,opts);
 
+
 % create .cir files from graph list 
-for i = 1:1
+for i = 1:
     disp(i)
     f = fopen('circuits_data/fname.cir', 'w')
     % Template circuit for bandpass filter problem.
